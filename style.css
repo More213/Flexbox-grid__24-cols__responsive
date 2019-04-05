@@ -16,7 +16,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content:center;
-    min-width:1000px ;
+    min-width:984px ;
     max-width: 1728px;
     align-items: stretch;
     margin-bottom: 100px;
@@ -27,8 +27,8 @@ body{
 
 .col-1{
     width:3.009259259%;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 20px;
+
     height: 400px;
     background: #af2c2c;
 }
@@ -88,8 +88,8 @@ body{
 
 .col-14{
      width:960px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 20px;
+ 
     height: 400px;
     background: #af2c2c;
 }
@@ -150,9 +150,7 @@ body{
 }
 
 @media only screen and (max-width:1016px ){
-    .col-1{
-       display: none ;
-    }
+
     .col-14{
         margin-right:0;
         margin-left: 0;
